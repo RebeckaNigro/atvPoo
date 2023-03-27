@@ -67,4 +67,10 @@ public class funcionario {
     public void setSalario(float salario) {
         this.salario = salario;
     }
+    public void imprimir(){
+        System.out.printf("Fun.: %d - %s\n", nMatricula, nome);
+        System.out.printf("Idade: %d Cargo: %s \n", idade, cargo);
+        System.out.printf("Salario: R$", salario);
+    }
+
 }
